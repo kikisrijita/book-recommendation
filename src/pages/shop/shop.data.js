@@ -31,7 +31,12 @@ const SHOP_DATA = [
           "https://i.ibb.co/KmrQDXH/513-UI-mvq-YL-SX311-BO1-204-203-200.jpg",
         price: 25
       },
-
+      {
+        id: 5,
+        name: "Green Beanie",
+        imageUrl: "https://i.ibb.co/YTjW3vF/green-beanie.png",
+        price: 18
+      },
       {
         id: 6,
         name: "Palm Tree Cap",
