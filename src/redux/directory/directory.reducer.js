@@ -4,7 +4,7 @@ const INITIAL_STATE = {
       title: "romance",
       imageUrl: "https://i.ibb.co/QQs9Qsg/romance.jpg",
       id: 1,
-      linkUrl: "shop/chetan-bhagat",
+      linkUrl: "shop/romance",
     },
     {
       title: "Historical",
@@ -13,14 +13,14 @@ const INITIAL_STATE = {
       linkUrl: "shop/jackets",
     },
     {
-      title: "Science-Fiction",
-      imageUrl: "https://i.ibb.co/bPMFZb4/avtar.jpg",
+      title: "Horror",
+      imageUrl: "https://i.ibb.co/7QR6484/maxresdefault.jpg",
       id: 3,
       linkUrl: "shop/sneakers",
     },
     {
-      title: "Horror",
-      imageUrl: "https://i.ibb.co/7QR6484/maxresdefault.jpg",
+      title: "Science-Fiction",
+      imageUrl: "https://i.ibb.co/bPMFZb4/avtar.jpg",
       size: "large",
       id: 4,
       linkUrl: "shop/womens",
