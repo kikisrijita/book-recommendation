@@ -25,7 +25,7 @@ class App extends React.Component {
   }
 
   componentWillUnmount() {
-    this.unsubscribeFromAuth();
+    // this.unsubscribeFromAuth();
   }
 
   render() {
@@ -53,9 +53,9 @@ class App extends React.Component {
   }
 }
 const mapStateToProps = createStructuredSelector({
-  currentUser: selectCurrentUser
+  currentUser: selectCurrentUser,
 });
-const mapDispatchToProps = dispatch => ({
-  checkUserSession: () => dispatch(checkUserSession())
+const mapDispatchToProps = (dispatch) => ({
+  checkUserSession: () => dispatch(checkUserSession()),
 });
 export default connect(mapStateToProps, mapDispatchToProps)(App);
