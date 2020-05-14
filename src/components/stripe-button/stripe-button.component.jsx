@@ -5,7 +5,7 @@ const StripeCheckoutButton = ({ price }) => {
   const priceForStripe = price * 100;
   const publishableKey = "pk_test_qAEIWyY8Z6G1Alx9sWOR98ay008SUachOh";
 
-  const onToken = token => {
+  const onToken = (token) => {
     console.log(token);
     alert("Payment Succesful!");
   };
@@ -13,7 +13,7 @@ const StripeCheckoutButton = ({ price }) => {
   return (
     <StripeCheckout
       label="Pay Now"
-      name="CRWN Clothing Ltd."
+      name="Book Store Ltd."
       billingAddress
       shippingAddress
       image="https://svgshare.com/i/CUz.svg"
